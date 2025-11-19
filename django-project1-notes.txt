@@ -1,0 +1,30 @@
+No terminal windows (PowerShell):
+- Create a Virtual Environment:
+	python -m venv myenv
+	.\myenv\Scripts\activate
+	* depois de rodar o comando acima vai aparecer (myenv) em verde antes do path no terminal
+- Install Django
+	pip install django
+	* verificar a instalação com: python -m django --version /ou/
+- Criar o projeto
+	django-admin startproject (nomedoprojeto)
+- Em caso de fechar o terminal, vai ser preciso reativar a virtual environment
+	.\myenv\Scripts\activate
+- Após criar o projeto, é possível ver o site rodando
+	cd (nomedoprojeto)
+	python manage.py runserver
+	* Ctrl+C para fechar o site (derrubar o server)
+- Vou começar a criar os aplicativos do meu projeto, o 1º vai ser uma static page (blog)
+	python manage.py startapp blog
+- Apos criar, vou na settings.py do project (nao eh a do blog!), e em INSTALLED_APPS adiciono 'blog'
+
+-> Em urls.py vou definir as diferentes páginas do site, /user, /profile, /item...
+-> Em models.py (dentro de blog) vou armazenar aqui que quero que seja armazenado na db (produto, categoria, usuarios, endereco...)
+-> Em views.py (dentro de blog) vai a logica (o que vai acontecer quando clica no link blog)
+
+- Adicionando uma nova pagina (contact) no app Pages dentro do projeto
+	em templates/ crio contact.html e adiciono o texto lá
+	em pages/views.py adiciono a funcao contact
+	em pages/urls.py adiciono a URL route
+
+FAZER DEPLOY
