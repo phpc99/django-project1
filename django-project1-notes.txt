@@ -8,7 +8,7 @@ No terminal windows (PowerShell):
 	* verificar a instalação com: python -m django --version /ou/
 - Criar o projeto
 	django-admin startproject (nomedoprojeto)
-- Em caso de fechar o terminal, vai ser preciso reativar a virtual environment
+- Em caso de fechar o terminal, vai ser preciso reativar a virtual environment (Nao e preciso usar cd command)
 	.\myenv\Scripts\activate
 - Após criar o projeto, é possível ver o site rodando
 	cd (nomedoprojeto)
