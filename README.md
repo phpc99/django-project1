@@ -7,7 +7,7 @@ Follow these steps to run this Django project on your machine.
 
 ## 1. **Clone the repository**
 
-`git clone https://github.com/phpc99/django-project1.git `
+`git clone https://github.com/phpc99/django-project1.git`
 `cd django-project1` 
 
 ## 2. **Create a virtual environment**
