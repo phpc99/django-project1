@@ -31,14 +31,17 @@ You should now see `(venv)` at the start of your terminal prompt.
 
 `pip install -r requirements.txt` 
 
-## 5. **Apply migrations**
+## 5. **Change the directory**
+`cd project1`
+
+## 6. **Apply migrations**
 
 `python manage.py migrate` 
 
-## 6. **Run the development server**
+## 7. **Run the development server**
 
 `python manage.py runserver` 
 
-## 7. **Open the website**
+## 8. **Open the website**
 
 Go to: http://127.0.0.1:8000/
